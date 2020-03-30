@@ -1,0 +1,15 @@
+{
+    "python.pythonPath": "C:\\Users\\Administrator\\envs\\test\\Scripts\\python.exe"
+}
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6"
+    },
+    "exclude": ["node_modules"]
+  }
+  {
+    "typeAcquisition": {
+      "include": ["jquery"]
+    }
+  }
