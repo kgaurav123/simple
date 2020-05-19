@@ -46,3 +46,56 @@ body {
         background-size: cover;
     }
 }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
+
+.social {
+    padding-top: 20px;
+}
+
+.socialfa {
+    padding-right: 5px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.fa-facebook {
+    color: #3b5999;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-linkedin {
+    color: #0077B5;
+}
+
+.fa-quora {
+    color: #b92b27;
+}
+
+.fa-instagram {
+    color: #e95950;
+}
+
+.fa-snapchat-ghost {
+    color: #FFFC00;
+}
+
+.fa-whatsapp {
+    color: #25D366;
+}
+
+.fa-pinterest {
+    color: #bd081c;
+}
+
+.fa-stack-overflow {
+    color: #FF9900;
+}
