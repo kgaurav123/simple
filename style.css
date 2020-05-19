@@ -16,6 +16,33 @@ body {
     font-size: 22px;
 }
 
-.mySlides {
-    display: none;
+.myimg {
+    animation: slide 10s infinite;
+    height: 475px;
+}
+
+@media (min-width:768px) {
+    .myimg {
+        height: 675px;
+    }
+}
+
+@keyframes slide {
+    0%,
+    100% {
+        background-image: url('img/me.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+    50% {
+        background-image: url('img/myimg.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
 }
