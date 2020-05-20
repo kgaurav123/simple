@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -57,62 +57,87 @@
 
             <div class="col-md-6 desc">
                 <div style="padding: 10%;text-align: center;">
-                    <h3>Hello</h3>
-                    <h1>I am Kumar Gaurav</h1>
-                    <h4>Electrical Engineering | Web Development | C and C++ | Python and Django |</h4>
+                    <div data-aos="fade-down"> <q>Work until you no longer have to introduce yourself</q>
+                    </div>
+                    <div data-aos="flip-down">
+                        <h4>Hello</h4>
+                        <h1 id="name">I am Kumar Gaurav</h1>
+                    </div>
+                    <div data-aos="zoom-in-up">
+                        <h4>Electrical Engineering | Web Development | C and C++ | Python and Django |</h4>
+                    </div>
+                    <div data-aos="fade-up"> <i class="fa fa-map-marker fa-3x"></i>
+                        <div style="font-size: 1.2em;margin: 0 -40px 0 -40px;">Mokameh,Patna-803302(Bihar)</div>
+                    </div>
+                    <div data-aos="fade-right" style="font-size: 1.2em;margin: 0px -40px 0 -40px;" class="my-3">B.TECH(Electrical Engineering),National Institute of Technology,Durgapur</div>
+                    <i class="fa fa-facebook-square m-3 fa-3x"></i><i class="fa fa-linkedin-square m-3 fa-3x"></i>
+                    <div data-aos="zoom-out"><i class="fa fa-phone fa-2x mr-2"></i><br><span>Contact:+919470244702</span></div>
+                    <div data-aos="zoom-in"><i class="fa fa-envelope fa-2x "></i><br><span>kumar123gaurav.kg@gmail.com</span></div>
                 </div>
             </div>
 
         </div>
     </div>
+
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-7" data-aos="zoom-in">
                 <h1>About Me</h1>
             </div>
-            <div class="col-md-5 w3-red" style="padding-bottom:20px ;">
-                <h1>My Skills</h1>
-                <p>Electrical Engineering</p>
-                <div class="progress">
+            <div class="col-md-5" style="padding-bottom:20px ;">
+                <div data-aos="zoom-out" class="mb-3">
+                    <h1 style="text-shadow: 0 2px 5px rgba(0,0,0,1);text-align: center;">My Skills</h1>
+                </div>
+                <div data-aos="zoom-in-up" class="mb-1">
+                    Electrical Engineering
+                </div>
+                <div class="progress" data-aos="flip-right">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
                 </div>
-                <p>C/C++</p>
-                <div class="progress">
+                <div data-aos="zoom-in-up" class="mb-1">
+                    C/C++
+                </div>
+                <div class="progress" data-aos="flip-left">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
                 </div>
-                <p>HTML,CSS,BOOTSTRAP AND JAVASCRIPT</p>
-                <div class="progress">
+                <div data-aos="zoom-in-up" class="mb-1">HTML,CSS,BOOTSTRAP AND JAVASCRIPT</div>
+                <div class="progress" data-aos="flip-right">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
                 </div>
-                <p>Python and Django</p>
-                <div class="progress">
+                <div data-aos="zoom-in-up" class="mb-1">Python and Django</div>
+                <div class="progress" data-aos="flip-left">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                 </div>
-                <p>Matlab and simulation</p>
-                <div class="progress">
+                <div data-aos="zoom-in-up" class="mb-1">Matlab and simulation</div>
+                <div class="progress" data-aos="flip-right">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
                 </div>
-                <p>Machine Learning and Artificial Intelligence</p>
-                <div class="progress">
+                <div data-aos="zoom-in-up" class="mb-1">Machine Learning and Artificial Intelligence</div>
+                <div class="progress" data-aos="flip-left">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 35%"></div>
                 </div>
             </div>
         </div>
     </div>
     <footer>
-        <div class="social w3-animate-zoom">
-            <h1 style="font-family:'Lato', sans-serif;color:rgb(66, 238, 23) ;">CONTACT &nbsp;ME</h1>
-            <a href=""><i class="fa fa-facebook fa-2x socialfa"></i></a>
-            <a href=""><i class="fa fa-twitter fa-2x socialfa"></i></a>
-            <a href=""><i class="fa fa-instagram fa-2x socialfa"></i></a>
+        <div class="social" data-aos="flip-up">
+            <div>
+                <h1 style="font-family:'Lato', sans-serif;">CONTACT &nbsp;ME</h1>
+            </div>
+            <div>
+                <a href=""><i class="fa fa-facebook fa-2x socialfa"></i></a>
+                <a href=""><i class="fa fa-twitter fa-2x socialfa"></i></a>
+                <a href=""><i class="fa fa-instagram fa-2x socialfa"></i></a>
 
-            <a href=""><i class="fa fa-quora fa-2x socialfa"></i></a>
-            <a href=""><i class="fa fa-linkedin fa-2x socialfa"></i></a>
-            <a href=""><i class="fa fa-snapchat-ghost fa-2x socialfa"></i></a>
-            <a href=""><i class="fa fa-github fa-2x socialfa"></i></a>
-            <a href=""><i class="fa fa-stack-overflow fa-2x socialfa"></i></a>
-            <a href=""><i class="fa fa-whatsapp fa-2x socialfa"></i></a>
-            <a href=""><i class="fa fa-pinterest fa-2x socialfa"></i></a>
+                <a href=""><i class="fa fa-quora fa-2x socialfa"></i></a>
+                <a href=""><i class="fa fa-linkedin fa-2x socialfa"></i></a>
+                <a href=""><i class="fa fa-snapchat-ghost fa-2x socialfa"></i></a>
+                <a href=""><i class="fa fa-github fa-2x socialfa"></i></a>
+                <a href=""><i class="fa fa-stack-overflow fa-2x socialfa"></i></a>
+                <a href=""><i class="fa fa-whatsapp fa-2x socialfa"></i></a>
+                <a href=""><i class="fa fa-pinterest fa-2x socialfa"></i></a>
+
+            </div>
 
         </div>
 
@@ -123,6 +148,13 @@
     <script src="index.js"></script>
     <!-- Optional JavaScript -->
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+        });
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

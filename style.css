@@ -121,3 +121,8 @@ canvas {
     position: relative;
     background-color: black;
 }
+
+.col-md-5 {
+    background-image: url('img/cool-background.png');
+    background-size: cover;
+}
