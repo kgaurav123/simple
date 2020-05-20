@@ -61,7 +61,13 @@ footer {
 .socialfa {
     padding-right: 5px;
     border-radius: 50%;
-    padding: 20px;
+    padding: 5px;
+}
+
+@media(min-width:768px) {
+    .socialfa {
+        padding: 20px;
+    }
 }
 
 .fa-facebook {
@@ -125,4 +131,13 @@ canvas {
 .col-md-5 {
     background-image: url('img/cool-background.png');
     background-size: cover;
+}
+
+.col-md-7 {
+    background-image: linear-gradient( 135deg, #FFA6B7 10%, #1E2AD2 100%);
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
 }
