@@ -203,8 +203,8 @@ p {
 }
 
 .bookcol {
-    background-color: #FFE53B;
-    background-image: linear-gradient(0deg, #FFE53B 0%, #FF2525 37%, #ffffff 100%);
+    background-color: #f0fd21;
+    background-image: linear-gradient(0deg, #f0fd21 0%, #B721FF 50%, #ffffff 100%);
 }
 
 ul.timeline {
@@ -248,4 +248,10 @@ ul.timeline>li>a {
 ul.timeline>li>p {
     margin-left: 20px;
     padding-top: ;
+}
+
+.bookcol>ul>div>li {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: 200;
+    font-size: 1.4em;
 }
