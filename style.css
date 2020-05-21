@@ -53,6 +53,7 @@ footer {
     padding: 3px;
     background-color: black;
     color: white;
+    padding-bottom: 30px;
 }
 
 .social {
@@ -160,27 +161,32 @@ p {
 }
 
 #p1 .box:nth-child(1) {
-    background: linear-gradient(45deg, #036eb7, #64eaff);
+    background: linear-gradient(45deg, #036eb7 25%, #64eaff 100%);
 }
 
 #p1 .box:nth-child(2) {
-    background: linear-gradient(45deg, #E91E63, #ed55ff);
+    background: linear-gradient(45deg, #E91E63 25%, #ed55ff 100%);
 }
 
 #p1 .box:nth-child(3) {
-    background: linear-gradient(45deg, #086d35, #00ff72);
+    background: linear-gradient(45deg, #086d35 25%, #00ff72 100%);
 }
 
 #p1 .box:nth-child(4) {
-    background: linear-gradient(45deg, #f05a4f, #f4c030);
+    background: linear-gradient(45deg, #f05a4f 25%, #f4c030 100%);
 }
 
 #p1 .box:nth-child(5) {
+    background-color: #7efb92;
+    background-image: linear-gradient(0deg, #7efb92 0%, #ec3545 50%, #ffffff 100%);
+}
+
+#p1 .box:nth-child(6) {
     background-color: #c052ff;
     background-image: linear-gradient(0deg, #c052ff 25%, #FFE32C 100%);
 }
 
-#p1 .box:nth-child(6) {
+#p1 .box:nth-child(7) {
     background-color: #FAACA8;
     background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
 }
@@ -191,25 +197,55 @@ p {
     }
 }
 
-
-/*.p1 {
-    width: 1200px;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-gap: 10px;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-left: 200px!important;
+.edcol {
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 50%, #ffffff 100%);
 }
 
-.p1 .box {
+.bookcol {
+    background-color: #FFE53B;
+    background-image: linear-gradient(0deg, #FFE53B 0%, #FF2525 37%, #ffffff 100%);
+}
+
+ul.timeline {
+    list-style-type: none;
     position: relative;
-    background: #fff;
-    padding: 20px 40px 40px;
-    text-align: center;
-    overflow: hidden;
-    border-radius: 20px;
 }
 
-*/
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline>li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.timeline>li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+ul.timeline>li>a {
+    margin-left: 40px
+}
+
+ul.timeline>li>p {
+    margin-left: 20px;
+    padding-top: ;
+}
