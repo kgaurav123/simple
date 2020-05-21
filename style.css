@@ -141,7 +141,7 @@ canvas {
 
 p {
     font-family: 'Dancing Script', cursive;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #projects {
@@ -169,7 +169,7 @@ p {
 }
 
 #p1 .box:nth-child(3) {
-    background: linear-gradient(45deg, #086d35 25%, #00ff72 100%);
+    background-image: linear-gradient( 99.6deg, rgba(112, 128, 152, 1) 10.6%, rgba(242, 227, 234, 1) 32.9%, rgba(234, 202, 213, 1) 52.7%, rgba(220, 227, 239, 1) 72.8%, rgba(185, 205, 227, 1) 81.1%, rgba(154, 180, 212, 1) 102.4%);
 }
 
 #p1 .box:nth-child(4) {
@@ -182,8 +182,7 @@ p {
 }
 
 #p1 .box:nth-child(6) {
-    background-color: #c052ff;
-    background-image: linear-gradient(0deg, #c052ff 25%, #FFE32C 100%);
+    background-image: linear-gradient( 109.2deg, rgba(249, 174, 240, 1) 6.5%, rgba(139, 144, 250, 1) 97.1%);
 }
 
 #p1 .box:nth-child(7) {
@@ -247,7 +246,6 @@ ul.timeline>li>a {
 
 ul.timeline>li>p {
     margin-left: 20px;
-    padding-top: ;
 }
 
 .bookcol>ul>div>li {
