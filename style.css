@@ -5,6 +5,7 @@
 
 body {
     font-family: "Lato", sans-serif;
+    overflow-x: hidden;
 }
 
 #collapsingNavbar3 a:hover {
@@ -139,5 +140,76 @@ canvas {
 
 p {
     font-family: 'Dancing Script', cursive;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
+
+#projects {
+    background-color: #9dc5c3;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(0deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+}
+
+#p1 {
+    box-sizing: border-box;
+}
+
+#p1 .box {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p1 .box:nth-child(1) {
+    background: linear-gradient(45deg, #036eb7, #64eaff);
+}
+
+#p1 .box:nth-child(2) {
+    background: linear-gradient(45deg, #E91E63, #ed55ff);
+}
+
+#p1 .box:nth-child(3) {
+    background: linear-gradient(45deg, #086d35, #00ff72);
+}
+
+#p1 .box:nth-child(4) {
+    background: linear-gradient(45deg, #f05a4f, #f4c030);
+}
+
+#p1 .box:nth-child(5) {
+    background-color: #c052ff;
+    background-image: linear-gradient(0deg, #c052ff 25%, #FFE32C 100%);
+}
+
+#p1 .box:nth-child(6) {
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+}
+
+@media(max-width:767px) {
+    #p1 .box {
+        margin: 10px 5px 10px 5px!important;
+    }
+}
+
+
+/*.p1 {
+    width: 1200px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 200px!important;
+}
+
+.p1 .box {
+    position: relative;
+    background: #fff;
+    padding: 20px 40px 40px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+*/
